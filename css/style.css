@@ -502,6 +502,36 @@ body.dark footer .text-primary { color: #3b82f6 !important; }
 .bg-green-500\/10 { background-color: rgba(16, 185, 129, 0.1); }
 .bg-blue-500\/10 { background-color: rgba(59, 130, 246, 0.1); }
 .bg-yellow-500\/10 { background-color: rgba(234, 179, 8, 0.1); }
+.bg-accent\/10 { background-color: rgba(14, 165, 233, 0.1); }
+
+/* تحسينات خاصة لتقرير الوردية */
+.shift-result-card {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ألوان إضافية للوضع المظلم */
+.dark .bg-red-50 { background-color: rgba(239, 68, 68, 0.1) !important; }
+.dark .bg-green-50 { background-color: rgba(16, 185, 129, 0.1) !important; }
+.dark .bg-blue-50 { background-color: rgba(59, 130, 246, 0.1) !important; }
+.dark .bg-yellow-50 { background-color: rgba(234, 179, 8, 0.1) !important; }
+
+.dark .text-red-400 { color: #f87171 !important; }
+.dark .text-green-400 { color: #4ade80 !important; }
+.dark .text-blue-400 { color: #60a5fa !important; }
+.dark .text-yellow-400 { color: #facc15 !important; }
+.bg-blue-500\/10 { background-color: rgba(59, 130, 246, 0.1); }
+.bg-yellow-500\/10 { background-color: rgba(234, 179, 8, 0.1); }
 .bg-yellow-50 { background-color: #fefce8; }
 .bg-green-50 { background-color: #f0fdf4; }
 .bg-blue-50 { background-color: #eff6ff; }
